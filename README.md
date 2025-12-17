@@ -197,7 +197,7 @@ Notebooks under notebooks/ reproduce figures from the paper.
 📚 Citation
 
 If you use this work, please cite the following:
-
+```
 @misc{pulivathi2025privacypreservingspikingneuralnetworks,
       title        = {Privacy-Preserving Spiking Neural Networks: A Deep Dive into Encryption Parameter Optimisation},
       author       = {Mahitha Pulivathi and Ana Fontes Rodrigues and Isibor Kennedy Ihianle and Andreas Oikonomou and Srinivas Boppu and Pedro Machado},
@@ -207,3 +207,4 @@ If you use this work, please cite the following:
       primaryClass = {cs.CR},
       url          = {https://arxiv.org/abs/2510.19537}
 }
+```
