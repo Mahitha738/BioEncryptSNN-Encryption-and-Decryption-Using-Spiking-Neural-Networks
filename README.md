@@ -1,5 +1,4 @@
-A neuromorphic approach to secure data processing is achieved through optimised spiking neural network encoding and decoding
-# Privacy-Preserving Spiking Neural Networks (BioEncryptSNN)
+# A neuromorphic approach to secure data processing is achieved through optimised spiking neural network encoding and decoding
 
 This repository contains the official codebase accompanying the paper:
 
