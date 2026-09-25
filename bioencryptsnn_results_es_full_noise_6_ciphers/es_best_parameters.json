@@ -1,0 +1,7 @@
+{
+  "l1_l2_weight": 1456.1801952063574,
+  "l2_l3_initial_weight": 763.7466297241599,
+  "l2_l3_wmax": 1095.1621600200538,
+  "input_current_active_pa": 623.2636793059042,
+  "l3_pair_inhibition_weight": -189.62442755767904
+}

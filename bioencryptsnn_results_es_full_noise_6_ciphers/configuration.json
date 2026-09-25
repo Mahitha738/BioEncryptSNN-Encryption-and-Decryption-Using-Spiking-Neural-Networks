@@ -1,0 +1,167 @@
+{
+  "dataset": "/opt/data/BioEncryptSNN-Encryption-and-Decryption-Using-Spiking-Neural-Networks/JSVulnerabilityDataSet-1.0.csv",
+  "dataset_rows": 12125,
+  "dataset_columns": 44,
+  "train_indices": [
+    1467,
+    10405
+  ],
+  "test_indices": [
+    274,
+    7981
+  ],
+  "train_payload_bytes": 105,
+  "test_payload_bytes": 105,
+  "payload_numeric_columns": [
+    "LOC",
+    "McCC",
+    "CLOC",
+    "LLOC",
+    "NOS",
+    "NUMPAR",
+    "HVOL",
+    "HEFF",
+    "HBUGS",
+    "CYCL_DENS"
+  ],
+  "classifier_feature_columns": [
+    "LOC",
+    "McCC",
+    "CLOC",
+    "LLOC",
+    "NOS",
+    "NUMPAR",
+    "HVOL",
+    "HEFF",
+    "HBUGS",
+    "CYCL_DENS"
+  ],
+  "label_column": "Vuln",
+  "seed": 42,
+  "n_trials": 10,
+  "crypto_algorithms": [
+    "S-DES",
+    "DES",
+    "AES",
+    "ChaCha20",
+    "RSA",
+    "ECIES"
+  ],
+  "reference_noise_type": "poisson_excitatory",
+  "reference_noise_rate_hz": 10.0,
+  "noise_types": [
+    "none",
+    "poisson_excitatory",
+    "poisson_inhibitory",
+    "poisson_mixed"
+  ],
+  "noise_rates_hz": [
+    0.0,
+    5.0,
+    10.0,
+    25.0,
+    50.0,
+    100.0
+  ],
+  "teacher_weight": 1200.0,
+  "teaching_weight_sweep": [
+    0.0,
+    300.0,
+    600.0,
+    900.0,
+    1200.0
+  ],
+  "train_epochs": 5,
+  "symbol_duration_ms": 20.0,
+  "inter_symbol_gap_ms": 5.0,
+  "neuron_parameters": {
+    "C_m": 250.0,
+    "tau_m": 20.0,
+    "t_ref": 2.0,
+    "E_L": -70.0,
+    "V_reset": -70.0,
+    "V_th": -55.0
+  },
+  "default_transport_parameters": {
+    "l1_l2_weight": 1200.0,
+    "l2_l3_initial_weight": 650.0,
+    "l2_l3_wmax": 1200.0,
+    "input_current_active_pa": 700.0,
+    "l3_pair_inhibition_weight": -250.0
+  },
+  "es_transport_parameters": {
+    "l1_l2_weight": 1456.1801952063574,
+    "l2_l3_initial_weight": 763.7466297241599,
+    "l2_l3_wmax": 1095.1621600200538,
+    "input_current_active_pa": 623.2636793059042,
+    "l3_pair_inhibition_weight": -189.62442755767904
+  },
+  "es_method": "CMA-ES",
+  "es_generations": 12,
+  "es_population_size": 10,
+  "es_initial_sigma": 0.2,
+  "es_evaluation_replicates": 2,
+  "es_calibration_bytes": [
+    0,
+    255,
+    170,
+    85,
+    15,
+    240,
+    51,
+    204,
+    60,
+    195,
+    90,
+    165,
+    1,
+    2,
+    4,
+    8,
+    16,
+    32,
+    64,
+    128
+  ],
+  "es_calibration_conditions": [
+    [
+      "none",
+      0.0,
+      0.75
+    ],
+    [
+      "poisson_excitatory",
+      10.0,
+      0.25
+    ]
+  ],
+  "primary_transport_variant": "es_stdp_no_teacher",
+  "teaching_layer_used_in_es": false,
+  "teaching_layer_used_in_primary_training": false,
+  "teaching_layer_used_in_primary_inference": false,
+  "matched_ablation_seeds": true,
+  "external_matched_noise_schedules": true,
+  "full_noise_campaign": {
+    "enabled": true,
+    "model_trials": 3,
+    "payload_count": 4,
+    "rows_per_class_per_payload": 1,
+    "noise_replicates": 2,
+    "rates_hz": [
+      0.0,
+      5.0,
+      10.0,
+      25.0,
+      50.0,
+      100.0
+    ],
+    "types": [
+      "poisson_excitatory",
+      "poisson_inhibitory",
+      "poisson_mixed"
+    ],
+    "noise_synaptic_weight_fraction": 0.1,
+    "statistical_unit": "trained-model x held-out-payload x noise-replicate",
+    "paired_design": true
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "evolution_strategy": [
+    "es_history.csv",
+    "es_best_parameters.json",
+    "es_generation_summary.csv",
+    "es_fitness_history.png"
+  ],
+  "teaching_layer_ablation": [
+    "trial_metrics.csv",
+    "teaching_ablation_paired_tests.csv",
+    "*_teaching_es_ablation.png"
+  ],
+  "noise_sensitivity": [
+    "full_noise_payload_manifest.csv",
+    "full_noise_trials.csv",
+    "full_noise_summary.csv",
+    "full_noise_paired_wilcoxon.csv",
+    "full_noise_friedman.csv",
+    "full_noise_claim_gate.csv",
+    "full_noise_spike_distances.csv",
+    "*_full_noise_ber.png",
+    "*_full_noise_exact_recovery.png",
+    "*_full_noise_victor_purpura.png"
+  ],
+  "stdp": [
+    "stdp_weight_trace.csv",
+    "*_es_no_teacher_stdp_trace.png"
+  ],
+  "classification": [
+    "classification_label_shuffle_control.csv",
+    "classification_label_shuffle_test.csv"
+  ],
+  "latency": [
+    "stage_timing_trials.csv",
+    "stage_timing_summary.csv",
+    "conventional_cipher_timing_trials.csv"
+  ],
+  "scalability": [
+    "scalability_trials.csv",
+    "scalability_summary.csv"
+  ],
+  "reproducibility": [
+    "environment.json",
+    "stdp_triplet_defaults.json",
+    "configuration.json"
+  ]
+}

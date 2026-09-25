@@ -1,0 +1,21 @@
+{
+  "Aminus": 0.007,
+  "Aminus_triplet": 0.00023,
+  "Aplus": 5e-10,
+  "Aplus_triplet": 0.0062,
+  "delay": 1.0,
+  "element_type": "synapse",
+  "has_delay": true,
+  "Kplus": 0.0,
+  "Kplus_triplet": 0.0,
+  "num_connections": 0,
+  "receptor_type": 0,
+  "requires_symmetric": false,
+  "synapse_model": "stdp_triplet_synapse",
+  "synapse_modelid": 59,
+  "tau_plus": 16.8,
+  "tau_plus_triplet": 101.0,
+  "Wmax": 100.0,
+  "weight": 1.0,
+  "weight_recorder": "NodeCollection(<empty>)"
+}

@@ -1,0 +1,2 @@
+comparison,metric,n_paired_folds,mean_delta_f1,wilcoxon_statistic,p_value
+true_labels vs shuffled_labels,F1,15,0.6126941738192658,0.0,6.103515625e-05

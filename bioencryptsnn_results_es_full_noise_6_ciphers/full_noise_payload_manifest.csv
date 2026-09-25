@@ -1,0 +1,9 @@
+payload_id,dataset_row_index,label,name,path,payload_bytes
+0,2345,0,c3_chart_internal_fn.updateArea,c3.js,105
+0,8372,1,<anonymous>,build/mediaelement-and-player.min.js,105
+1,4096,0,i.pointExpandedR,c3.min.js,105
+1,10359,1,<anonymous>,js/reveal.min.js,105
+2,2672,0,c3_chart_internal_fn.isSafari,c3.js,105
+2,8931,1,<anonymous>,build/mediaelementplayer.min.js,105
+3,2647,0,<anonymous>.shown,c3.js,105
+3,9079,1,<anonymous>,build/mediaelementplayer.min.js,105

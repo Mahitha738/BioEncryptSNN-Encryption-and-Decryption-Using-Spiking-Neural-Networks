@@ -1,0 +1,7 @@
+algorithm,zero_noise_mean_ber,zero_noise_exact_ciphertext_recovery_rate,baseline_meets_exact_recovery_gate,interpretation
+S-DES,0.0020833333333333333,0.0,False,report noise sensitivity only; do not claim robust lossless transport
+DES,0.01171875,0.0,False,report noise sensitivity only; do not claim robust lossless transport
+AES,0.023193359375,0.0,False,report noise sensitivity only; do not claim robust lossless transport
+ChaCha20,0.02751068376068376,0.0,False,report noise sensitivity only; do not claim robust lossless transport
+RSA,0.02490234375,0.0,False,report noise sensitivity only; do not claim robust lossless transport
+ECIES,0.0,1.0,True,zero-noise exact-recovery gate is satisfied
