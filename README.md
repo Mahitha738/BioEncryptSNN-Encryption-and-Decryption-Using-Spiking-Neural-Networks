@@ -55,8 +55,6 @@ The repository is organised as follows:
 ├── BioEncryptSNN_CMA_ES_FULL_NOISE_6_CIPHERS.ipynb
 ├── LICENSE
 ├── README.md
-├── environment.json
-├── environment.yml
 └── requirements.txt
 ```
 
